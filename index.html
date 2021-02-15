@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="body">
+    <main class="todo">
+        <div class="container">
+            <div class="settings">
+                <div class="mode-list">
+                    <button class="night-mode">
+                        <img src="./img/crescent-moon-phase-shape-with-two-stars.svg" alt="">
+                    </button>
+                    <button class="light-mode">
+                        <img src="./img/sun.svg" alt="">
+                    </button>
+                </div>
+                <div class="language-list">
+                    <button class="language__btn">
+                        <img class="language__btn__img" src="./img/uzbekistan.svg" alt="language img">
+                    </button>
+                    <button class="language__btn">
+                        <img class="language__btn__img" src="./img/russia.svg" alt="language img">
+                    </button>
+                    <button class="language__btn">
+                        <img class="language__btn__img" src="./img/united-states.svg" alt="language img">
+                    </button>
+                </div>
+            </div>
+            <header class="todo__header">
+                <h1 class="todo__heading">To do List</h1>
+            </header>
+            <form class="todo__form">
+                <label class="todo__label">
+                    <input type="text" class="todo__input" placeholder="TO DO NAME" required>
+                </label>
+                <button class="todo__form__button" type="submit">To do qo'shish</button>
+                <button class="todo__form__button--delete" type="button">Tozalash</button>
+            </form>
+            <ul class="todo__list"></ul>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    background-color: #333;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.night-mode{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language-list{
+    padding-right: 10px;
+}
+
+.language__btn{
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0 10px;
+}
+
+.light-mode{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 50px;
+}
+
+.todo__header {
+    padding: 20px;
+    text-align: center;
+}
+
+.todo__heading {
+    font-size: 45px;
+}
+
+.todo__form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.todo__label {
+    width: 100%;
+}
+
+.todo__input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #323;
+    color: gold;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+.todo__heading{
+    color: gold;
+}
+.todo__item__close {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.todo__form__button {
+    width: 100%;
+    padding: 20px;
+    background-color: #323;
+    font-size: 18px;
+    color: gold;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.todo__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 35vh;
+}
+
+.todo__item {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0;
+    color: gold;
+    position: relative;
+    background-color: red;
+}
+.todo__form__button--delete{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #323;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px gold;
+    margin-top: 15px;
+}
+.unfulfilled-Button{
+    background-image: url(../img/close.svg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: auto;
+}
+.fulfilled-Button{
+    background-image: url(../img/draw-check-mark.svg);
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 15px;
+}
